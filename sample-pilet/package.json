@@ -44,7 +44,8 @@
     "start": "pilet debug-wp",
     "build": "pilet build-wp",
     "upgrade": "pilet upgrade",
-    "upgrade-pilet": "pilet upgrade --force-overwrite yes"
+    "upgrade-pilet": "pilet upgrade --force-overwrite yes",
+    "publish": "rm -rf dist && rm -f *.tgz && npm run build && pilet pack && pilet publish --url https://feed.piral.cloud/api/v1/pilet/empty --api-key is-invalid-anyway"
   },
   "main": "dist/index.js",
   "files": [

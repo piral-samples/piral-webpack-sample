@@ -16,6 +16,27 @@ npm i piral-cli-webpack --save-dev
 
 We've updated the `start` and `build` npm tasks to use `pilet debug-wp` and `pilet build-wp` respectively.
 
+Besides the change of the two commands we also show here how to publish a pilet in one command:
+
+```sh
+npm run publish
+```
+
+Which just uses the following commands:
+
+```sh
+ # cleanup first
+rm -rf dist
+# also remove old tgz files
+rm -f *.tgz
+# build it (using webpack!)
+npm run build
+# pack it using the Piral CLI
+pilet pack
+# publish the last packed file
+pilet publish --url https://feed.piral.cloud/api/v1/pilet/empty --api-key is-invalid-anyway
+```
+
 ## `sample-piral-instance`
 
 Shows how a Piral instance is debugged and build using Webpack.
