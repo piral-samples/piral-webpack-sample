@@ -16,14 +16,14 @@
     "@types/react-router-dom": "latest",
     "history": "4.10.1",
     "path-to-regexp": "0.1.7",
-    "piral-cli": "^0.11.1",
-    "piral-cli-webpack": "^0.3.0",
+    "piral-cli": "0.14.0",
+    "piral-cli-webpack": "0.14.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-router": "5.1.2",
     "react-router-dom": "5.1.2",
     "reactstrap": "8.4.1",
-    "sample-piral": "0.11.1",
+    "sample-piral": "latest",
     "tslib": "1.11.1",
     "typescript": "latest"
   },
@@ -41,8 +41,8 @@
     "sample-piral": "*"
   },
   "scripts": {
-    "start": "pilet debug-wp",
-    "build": "pilet build-wp",
+    "start": "pilet debug",
+    "build": "pilet build",
     "upgrade": "pilet upgrade",
     "upgrade-pilet": "pilet upgrade --force-overwrite yes",
     "publish": "rm -rf dist && rm -f *.tgz && npm run build && pilet pack && pilet publish --url https://feed.piral.cloud/api/v1/pilet/empty --api-key is-invalid-anyway"

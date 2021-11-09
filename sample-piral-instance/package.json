@@ -6,11 +6,11 @@
     "piral"
   ],
   "dependencies": {
-    "piral": "^0.11.1"
+    "piral": "0.14.0"
   },
   "scripts": {
-    "start": "piral debug-wp",
-    "build": "piral build-wp"
+    "start": "piral debug",
+    "build": "piral build"
   },
   "app": "./src/index.html",
   "pilets": {
@@ -31,8 +31,8 @@
     "@types/react-router": "latest",
     "@types/react-router-dom": "latest",
     "node-sass": "^4.13.1",
-    "piral-cli": "latest",
-    "piral-cli-webpack": "^0.3.0",
+    "piral-cli": "0.14.0",
+    "piral-cli-webpack": "0.14.0",
     "typescript": "latest"
   }
 }
