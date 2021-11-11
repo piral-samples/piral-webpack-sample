@@ -1,6 +1,10 @@
-# Piral Webpack Sample
+[![Piral Logo](https://github.com/smapiot/piral/raw/develop/docs/assets/logo.png)](https://piral.io)
 
-These examples show how to use Piral with Webpack, specifically the `piral-cli-webpack` plugin.
+# [Piral Sample](https://piral.io) &middot; [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/smapiot/piral/blob/main/LICENSE) [![Gitter Chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/piral-io/community)
+
+> Piral Webpack Sample
+
+:zap: These examples show how to use Piral with Webpack, specifically the `piral-cli-webpack` plugin.
 
 We have two folders.
 
@@ -48,3 +52,7 @@ npm i piral-cli-webpack node-sass --save-dev
 ```
 
 We've updated the `start` and `build` npm tasks to use `piral debug-wp` and `piral build-wp` respectively.
+
+## License
+
+Piral and this sample code is released using the MIT license. For more information see the [license file](./LICENSE).
