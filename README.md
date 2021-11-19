@@ -6,6 +6,8 @@
 
 :zap: These examples show how to use Piral with Webpack, specifically the `piral-cli-webpack` plugin.
 
+You can visit this demo at [webpack.samples.piral.cloud/](https://webpack.samples.piral.cloud/).
+
 We have two folders.
 
 ## `sample-pilet`
